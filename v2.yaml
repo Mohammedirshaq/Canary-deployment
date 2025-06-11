@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: flask-apk
+  name: flask-apk-v2
 spec:
-  replicas: 5
+  replicas: 10
   selector:
     matchLabels:
       app: flask-apk  
